@@ -84,6 +84,26 @@ In this open source project, we have prioritized the development of lightweight 
     <img src="./case/report/2.jpg" width="50%" height="50%">
 </div>
 
+### 3.2 publaynet
+
+- Label Categories
+
+  | Element        | Name                  |
+  | -------------- | --------------------- |
+  | text           | Main Text (Paragraph) |
+  | title          | Title                 |
+  | figure         | Image                 |
+  | list           | List                  |
+  | table          | Table                 |
+
+- Example
+
+<div align="center">
+    <img src="./case/publaynet/case1.jpg" width="50%" height="50%">
+    <img src="./case/publaynet/case2.jpg" width="50%" height="50%">
+</div>
+
+
 ## License
 
 This project utilizes certain datasets and checkpoints that are subject to their respective original licenses. Users must comply with all terms and conditions of these original licenses. The content of this project itself is licensed under the [Apache license 2.0](./LICENSE.txt).
