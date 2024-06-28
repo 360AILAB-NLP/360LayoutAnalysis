@@ -113,9 +113,9 @@ In this open source project, we have prioritized the development of lightweight 
   | -------- | --------- |
   | Text     | Main text |
   | Title    | Title     |
-  | Figure   | List      |
-  | Table    |           |
-  | Equation | Image     |
+  | Figure   | Figure    |
+  | Table    | Table     |
+  | Equation | Equation  |
 
   
 
