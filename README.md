@@ -42,6 +42,7 @@
   
 
 ## 三、版面分析
+
 ### 3.1 论文场景
 
 - 标签类别
@@ -60,6 +61,7 @@
   | Equation       | 公式         |
 
 - 示例
+
 <div align="center">
     <img src="./case/paper/1.jpg" width="50%" height="50%">
     <img src="./case/paper/2.jpg" width="50%" height="50%">
@@ -67,7 +69,9 @@
 
 
 
+
 ### 3.2 研报场景
+
 - 标签类别
 
   | 元素           | 名称         |
@@ -92,16 +96,17 @@
   </div>
 
 
-### 3.2 publaynet
+### 3.3 publaynet
+
 - 标签类别
 
-  | 元素           | 名称         |
-  | -------------- | ------------ |
-  | text           | 正文         |
-  | title          | 标题         |
-  | list           | 列表         |
-  | table          | 表格     |
-  | figure         | 图片         |
+  | 元素   | 名称 |
+  | ------ | ---- |
+  | text   | 正文 |
+  | title  | 标题 |
+  | list   | 列表 |
+  | table  | 表格 |
+  | figure | 图片 |
 
   
 
@@ -111,6 +116,19 @@
       <img src="./case/publaynet/case1.jpg" width="50%" height="50%">
       <img src="./case/publaynet/case2.jpg" width="50%" height="50%">
   </div>
+
+### 3.4 通用版式
+
+- 标签类别
+
+  | 元素     | 名称 |
+  | -------- | ---- |
+  | Text     | 正文 |
+  | Title    | 标题 |
+  | Figure   | 列表 |
+  | Table    | 表格 |
+  | Equation | 图片 |
+
 
 
 ## License
