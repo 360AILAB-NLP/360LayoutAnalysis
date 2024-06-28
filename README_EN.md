@@ -116,6 +116,7 @@ In this open source project, we have prioritized the development of lightweight 
   | Figure   | Figure    |
   | Table    | Table     |
   | Equation | Equation  |
+  | Caption  | Image Caption/Table Caption |
 
   
 
