@@ -125,9 +125,9 @@
   | -------- | ---- |
   | Text     | 正文 |
   | Title    | 标题 |
-  | Figure   | 列表 |
+  | Figure   | 图片 |
   | Table    | 表格 |
-  | Equation | 图片 |
+  | Equation | 公式 |
 
 
 
