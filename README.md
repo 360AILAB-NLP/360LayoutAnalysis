@@ -142,6 +142,7 @@
   | Figure   | 图片 |
   | Table    | 表格 |
   | Equation | 公式 |
+  | Caption  | 表/图标题 |
 
 
 
