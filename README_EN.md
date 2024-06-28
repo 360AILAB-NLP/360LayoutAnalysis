@@ -86,7 +86,7 @@ In this open source project, we have prioritized the development of lightweight 
 </div>
 
 
-### 3.2 publaynet
+### 3.3 publaynet
 
 - Label Categories
 
@@ -105,7 +105,7 @@ In this open source project, we have prioritized the development of lightweight 
     <img src="./case/publaynet/case2.jpg" width="50%" height="50%">
 </div>
 
-### 3.3 General Layout
+### 3.4 General Layout
 
 - Label category
 
