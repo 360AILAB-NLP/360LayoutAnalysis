@@ -61,6 +61,7 @@ In this open source project, we have prioritized the development of lightweight 
     <img src="./case/paper/2.jpg" width="50%" height="50%">
 </div>
 
+
 ### 3.2 Research Report Scenario
 
 - Label Categories
@@ -84,17 +85,18 @@ In this open source project, we have prioritized the development of lightweight 
     <img src="./case/report/2.jpg" width="50%" height="50%">
 </div>
 
+
 ### 3.2 publaynet
 
 - Label Categories
 
-  | Element        | Name                  |
-  | -------------- | --------------------- |
-  | text           | Main Text (Paragraph) |
-  | title          | Title                 |
-  | figure         | Image                 |
-  | list           | List                  |
-  | table          | Table                 |
+  | Element | Name                  |
+  | ------- | --------------------- |
+  | text    | Main Text (Paragraph) |
+  | title   | Title                 |
+  | figure  | Image                 |
+  | list    | List                  |
+  | table   | Table                 |
 
 - Example
 
@@ -103,6 +105,19 @@ In this open source project, we have prioritized the development of lightweight 
     <img src="./case/publaynet/case2.jpg" width="50%" height="50%">
 </div>
 
+### 3.3 General Layout
+
+- Label category
+
+  | Element  | Name      |
+  | -------- | --------- |
+  | Text     | Main text |
+  | Title    | Title     |
+  | Figure   | List      |
+  | Table    |           |
+  | Equation | Image     |
+
+  
 
 ## License
 
