@@ -92,7 +92,25 @@
   </div>
 
 
+### 3.2 publaynet
+- 标签类别
 
+  | 元素           | 名称         |
+  | -------------- | ------------ |
+  | text           | 正文         |
+  | title          | 标题         |
+  | list           | 列表         |
+  | table          | 表格     |
+  | figure         | 图片         |
+
+  
+
+- 示例
+
+  <div align="center">
+      <img src="./case/publaynet/case1.jpg" width="50%" height="50%">
+      <img src="./case/publaynet/case2.jpg" width="50%" height="50%">
+  </div>
 
 
 ## License
