@@ -20,19 +20,34 @@
 
 主要特点：
 
-1)涵盖中文论文、英文论文、中文研报三个垂直领域及1个通用场景模型；
+1)涵盖中文论文、英文论文、中文研报、教材4个垂直领域及1个通用场景模型；
 
 2)轻量化推理快速【基于yolov8训练，单模型6.23MB】；
 
 3)中文论文场景包含段落信息【CLDA不具备段落信息，我们开源独有】；
 
-4)中文研报场景/通用场景【基于数万级别高质量数据训练，我们开源独有】
+4)中文研报场景/通用场景/教材场景【基于数万级别高质量数据训练，我们开源独有】
 
 **如果有更多的使用体验，欢迎向我们反馈。**
 
 ## 二、使用
 
 - 权重下载地址：[🤗LINK](https://huggingface.co/qihoo360/360LayoutAnalysis)
+    
+
+
+
+| 模型权重                                                     | 场景         | 标签类别                                                     | 开源时间   |
+| ------------------------------------------------------------ | ------------ | ------------------------------------------------------------ | ---------- |
+| [paper-8n.pt](https://huggingface.co/qihoo360/360LayoutAnalysis/blob/main/paper-8n.pt) | 中文论文场景 | Text：正文（段落）<br/>Title：标题<br/>Figure：图片<br/>Figure caption：图片标题<br/>Table：表格<br/>Table caption：表格标题<br/>Header：页眉<br/>Footer：页脚<br/>Reference：注释<br/>Equation：公式 | 2024-06-15 |
+| [report-8n.pt](https://huggingface.co/qihoo360/360LayoutAnalysis/blob/main/report-8n.pt) | 中文研报场景 | Text：正文（段落）<br/>Title：标题<br/>Figure：图片<br/>Figure caption：图片标题<br/>Table：表格<br/>Table caption：表格标题<br/>Header：页眉<br/>Footer：页脚<br/>Toc：目录 | 2024-06-15 |
+| [publaynet-8n.pt](https://huggingface.co/qihoo360/360LayoutAnalysis/blob/main/publaynet-8n.pt) | 英文论文场景 | text：正文<br/>title：标题<br/>list：列表<br/>table：表格<br/>figure：图片 | 2024-06-28 |
+| [general6-8n.pt](https://huggingface.co/qihoo360/360LayoutAnalysis/blob/main/general6-8n.pt) | 通用场景     | 元素：名称<br/>Text：正文<br/>Title：标题<br/>Figure：图片<br/>Table：表格<br/>Equation：公式<br/>Caption：表/图标题 | 2024-06-28 |
+| [jiaocai-8n.pt](https://huggingface.co/qihoo360/360LayoutAnalysis/blob/main/jiaocai-8n.pt) | 教材场景     | 目录：catalogue<br/>页脚：footer<br/>脚注：footnote<br/>章标题：chapter title<br/>小节标题：subsection title<br/>小标题：subhead<br/>段落：paragraph<br/>无序列表：unordered list<br/>表格：table<br/>图片：figure<br/>代码：code<br/>页眉：header<br/>页码：page number<br/>索引标签：index<br/>节标题：section title<br/>标题：headline<br/>其他标题：other title<br/>公式：formula<br/>有序列表：ordered list<br/>表注：table caption<br/>图注：figure caption<br/>代码注释：code caption | 2024-09-06 |
+
+
+
+
 
 - 使用方式：
 
